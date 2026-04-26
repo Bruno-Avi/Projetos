@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Mxperformance.css">
+    <title>MX Performance</title>
+</head>
+
+<body>
+    <div class="fundo-inicial">
+        <h1>MX Peromance</h1>
+        <h2>Setups, Model Swaps e vários outros mods que aumentam a sua perfomance no MX Bikes você encontra aqui</h2>
+    </div>
+
+    <div class="cart">
+        🛒 0 itens
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2>Suspensão KYB</h2>
+            <p>Setup focado em pista técnica, mais estabilidade e controle em curvas.</p>
+        </div>
+
+        <div class="card">
+            <h2>Suspensão Showa</h2>
+            <p>Mais agressiva, ideal pra saltos grandes e pistas rápidas.</p>
+        </div>
+    </div>
+
+    <div class="seleção">
+        <h1>O melhor jeito de começar a evoluir, vem de um bom plano de treino</h1>
+        <select id="dia" onchange="Mostrartreino()">
+            <option value="">Selecione o Dia</option>
+            <option value="segunda">Segunda</option>
+            <option value="terça">Terça</option>
+            <option value="quarta">Quarta</option>
+            <option value="quinta">Quinta</option>
+            <option value="sexta">Sexta</option>
+        </select>
+
+        <select id="opção">
+            <option value="pista">3O min na Pista</option>
+            <option value="setup">30 min com Setup MX perfomance</option>
+        </select>
+
+        <div id="resultado">Seus Resultados = </div>
+        <button onclick="Calcular()">Calcular</button>
+
+    </div>
+
+    <div class="assinatura">
+        <h1>Aqui você faz a sua assinatura e garante os melhores Setups de Suspensões do MX Bikes</h1>
+        <button>Assinar</button>
+
+    </div>
+
+    <footer>Disigned by Bruno</footer>
+
+</body>
+
+</html>
